@@ -1,8 +1,8 @@
-/*html {
+html {
     height: 100%;
     margin: auto;
     overflow: scroll;
-}*/
+}
 
 body {
     font-family: Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
@@ -115,6 +115,7 @@ button {
     justify-content: center;
     align-items: center;
     gap: 52px;
+    padding: 20px;
 }
 
 .info-card {
@@ -148,7 +149,7 @@ button {
     display: flex;
     flex-direction: column;
     max-width: 800px;
-    padding: 40px;
+    padding: 64px;
 }
 
 .quote {
@@ -160,4 +161,30 @@ button {
 .quotee {
     align-self: flex-end;
     font-weight: bold;
+}
+
+.sign-up-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 64px;
+    margin-bottom: 64px;
+}
+.action-container {
+    background: #3882f6;
+    color: #F9FAF8;
+    border-radius: 4px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 52px;
+    padding: 40px;
+}
+
+.action-text-main {
+    font-size: 24px;
+}
+
+.sign-up-button-2 {
+    border:2px solid #F9FAF8;
 }
