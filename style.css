@@ -94,3 +94,45 @@ button {
     font-size: 18px;
     color: #E5E7EB;
 }
+
+.info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+}
+
+.info-header {
+    font-size: 36px;
+    font-weight: 900;
+    color: #1F2937;
+    margin-bottom: 40px;
+}
+
+.info-card-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 52px;
+}
+
+.info-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+    text-align: center;
+}
+
+.info-box {
+    border: 3px solid #3882f6;
+    border-radius: 6px;
+    width: 150px;
+    height: 150px;
+}
+
+.info-subtext {
+    font-size: 18px;
+    max-width: 150px;
+}
