@@ -1,3 +1,9 @@
+/*html {
+    height: 100%;
+    margin: auto;
+    overflow: scroll;
+}*/
+
 body {
     font-family: Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     padding: 0;
@@ -129,4 +135,29 @@ button {
 .info-subtext {
     font-size: 18px;
     max-width: 150px;
+}
+
+.quote-section {
+    background: #E5E7EB;
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+}
+
+.quote-container {
+    display: flex;
+    flex-direction: column;
+    max-width: 800px;
+    padding: 40px;
+}
+
+.quote {
+    color: #1F2937;
+    font-size: 36px;
+    font-style: italic;
+}
+
+.quotee {
+    align-self: flex-end;
+    font-weight: bold;
 }
