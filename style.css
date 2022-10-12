@@ -36,7 +36,6 @@ a {
     display: flex;
     justify-content: center;
     padding: 64px;
-    margin: 0;
 }
 
 .hero-cards {
@@ -95,15 +94,10 @@ button {
     color: #E5E7EB;
 }
 
-.info {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    margin-top: 40px;
-}
-
 .info-header {
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
     font-size: 36px;
     font-weight: 900;
     color: #1F2937;
